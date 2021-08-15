@@ -1,3 +1,15 @@
+"""Analyzing and visualizing Stack Overflow Queries data
+
+This 'script' analyzes a Stack Overflow Queries time series dataset to answer questions such as:
+    Which programming languages have the most/least posts?
+    How many months of data exist per language?
+The results of the data analysis are plotted in multi-line charts with Matplotlib.
+
+This script requires that 'pandas' and 'Matplotlib' be installed within the Python
+environment you are running this script in.
+
+"""
+
 #!/usr/bin/env python
 # coding: utf-8
 
